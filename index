@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .barca-logo {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            border: 4px solid #004D98;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        
+        .top {
+            height: 60%;
+            background-color: #A50044;
+            position: relative;
+        }
+        
+        .bottom {
+            height: 40%;
+            background-color: #004D98;
+        }
+        
+        .circle {
+            width: 40%;
+            height: 50%;
+            background-color: #EDBB00;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 4px solid #004D98;
+        }
+        
+        .cross {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #A50044;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="barca-logo">
+        <div class="top">
+            <div class="circle"></div>
+            <div class="cross">+</div>
+        </div>
+        <div class="bottom"></div>
+    </div>
+</body>
+</html>
